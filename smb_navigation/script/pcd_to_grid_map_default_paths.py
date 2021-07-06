@@ -8,7 +8,7 @@ rospack = rospkg.RosPack()
 print('\033[93mYOU NEED TO HAVE A ROSCORE RUNNING!\033[0m')
 
 # Get the file path to the default pcd file created by smb_slam
-mapPath = rospack.get_path('smb_slam') + '/compslam_map.pcd'
+mapPath = rospack.get_path('smb_slam') + '/maps/rescue_map_cleaned_v2.pcd'
 
 # Get the path to the script
 smb_nav_path = rospack.get_path('smb_navigation')

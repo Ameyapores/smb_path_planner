@@ -7,9 +7,12 @@ NC='\033[0m' # No Color
 
 
 # Parameters - TODO
-resolution=0.2 # [m]
+#resolution=0.2 # [m]
+#z_min=-0.5
+#z_max=1.0
+resolution=0.15 # [m]
 z_min=-0.5
-z_max=1.0
+z_max=2.0
 
 # Check inputs
 print_help () {
